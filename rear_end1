@@ -1,0 +1,96 @@
+import random
+
+print("Welcome to my game!")
+print("Please choose your character.\n")
+input("Would you like to be a wizard, warrior, or a ranger?\n")
+warrior = "warrior"
+wizard = "wizard"
+ranger = "ranger"
+if (wizard) == "wizard":
+  print("You are a wizard.\n") #wizard code
+  print("At the beginning of the game, you will start with these stats.\n")
+  print("10 health points or HP\n")
+  print("10 magic points or MP\n")
+  print("You begin at level 1.\n")
+  print("As you progress you will gain HP and MP.\n")
+  hp = 10
+  mp = 10
+
+else:
+  wizard == False
+  print("please pick a valid character.")
+
+ice_blast = [1,2,3]
+ice_blast = ("A")
+fireball = ("B")
+lightning_bolt = ("C")
+
+attack_type = ["ice blast", "fireball", "lightning bolt"] #attack types
+
+# monster code
+lmonsters = ["cave rat", "goblin", "cave lizard", "cave spider", "scorpion", "centripod"] #low level monsters
+chosen_lmonster = random.choice(lmonsters) #random monster
+#cave rat code
+cave_rat = lmonsters[0]
+cave_rat_hp = 6
+cave_rat_attack = ["claw", "bite", "tail whip"]
+cave_rat_attack_damage = [1, 2, 3]
+damage_taken = int(random.choice(cave_rat_attack_damage))
+cave_rat_hp = cave_rat_hp - damage_taken
+print(cave)_rat_hp
+
+
+#goblin code
+goblin = lmonsters[1]
+cave_lizard = lmonsters[2]
+cave_spider = lmonsters[3]
+scorpion = lmonsters[4]
+centripod = lmonsters[5]
+
+
+
+name = input("Please enter your character name.\n\n") #character name input
+print(f"hello {name} are you ready to start your adventure?\n")
+input("yes or no?\n")
+yes = "yes"
+no = "no"
+hp = "hp"
+attack_dmg = [1, 2, 3, 4, 5]
+
+if yes == "yes\n":
+  print("Your journey begins now.\n")
+  
+else:
+  print("Restart game when ready.")
+
+print(f"{name} has always wanted to be a wizard.\n")
+print("He often dreams of what his father is....or used to be at least")
+print("A conjurer of fire, water, dark magic, and much more.")
+print(f"You can say that {name} had a knack for picking on goblins")
+print("and dreamed of slaying dragons with his inpenetrable magic.")
+print("One day his dream came true.")
+print("He woke up in a cave with no memory of his past.")
+print("That's where his journey began.....\n")
+print(f"As {name} walks out of the cave, a loud scream is heard.")
+print("It's a woman getting attacked by a monster!")
+input("Do you fight the monster? Enter yes or no.\n")
+yes = "yes"
+no = "no"
+if yes == "yes":
+  print("You have inititated a fight!")
+  print("A wild", lmonsters[0], "has appeared!")
+  print("Which spell should should you cast?")
+  print(f"A. {attack_type[0]}")
+  print(f"B. {attack_type[1]}")
+  print(f"C. {attack_type[2]}")
+  print("Which spell should you cast?\n")
+  input_choice = input("Enter a, b, or c.\n")
+
+  if input_choice == "a":
+    print("You hurl ice blast at the monster!")
+    print(f"You hit the monster with {damage_taken}")
+left = "forest"
+right = "cave"
+middle = "river"
+
+
